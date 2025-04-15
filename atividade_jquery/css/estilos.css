@@ -1,0 +1,121 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  section {
+    padding: 60px 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .scroll-btn {
+    margin-top: 30px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+   
+   
+  nav.scrolled {
+    background-color: #333 !important;
+  }
+
+ /* Home */ 
+  #home {
+    height: 100vh;
+    background: url("https://www.wallpaperflare.com/static/20/448/1022/soccer-corinthians-corinthian-paulista-wallpaper.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #home h1 {
+    font-size: 4rem;
+  }
+
+  #home p {
+    font-size: 1.5rem;
+  }
+
+  #home a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+/* Sobre */
+  #sobre{
+    height: 100vh;
+    background-color: grey;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #container{
+    display: flex;
+  }
+
+  #sobre img {
+    background-size: cover;
+    filter: grayscale(10);
+    padding: 10px;
+  }
+
+  #sobre a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+/* Contato */
+
+  #contato a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+/* Estádio  */
+  #estadio{
+    height: 100vh;
+    background-image: url("https://cdn.meutimao.com.br/_upload/wallpapers/arena_corinthians_em_hd_p4_1920x1080.jpg");
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #estadio p{
+    font-size: 1.5rem;
+  }
+  
+  #estadio h1{
+    font-size: 4rem;
+    color: white
+  }
+
+  
+  #estadio a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+/* Integrantes */
+
+  #integrantes a{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
