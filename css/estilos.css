@@ -55,7 +55,7 @@ html {
 /* Sobre */
   #sobre{
     height: 100vh;
-    background-color: grey;
+    background-color: rgb(48, 47, 47);
     background-size: cover;
     color: rgb(255, 255, 255);
     display: flex;
@@ -89,6 +89,15 @@ html {
     font-weight: bold;
   }
 
+  form{
+    text-align: center;
+  }
+
+  #contato #checkbox{
+    display: flex;
+    justify-content: center;
+  }
+
 /* Estádio  */
   #estadio{
     height: 100vh;
@@ -113,6 +122,7 @@ html {
     font-size: 1.5rem;
     font-weight: bold;
   }
+
 
 /* Integrantes */
 
