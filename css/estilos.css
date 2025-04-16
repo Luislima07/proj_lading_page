@@ -65,10 +65,7 @@ html {
   }
 
    #sobre img {
-    background-size: cover;
     filter: grayscale(100%);
-    padding: 10px;
-    background-size: cover;
   }
 
   #sobre span{
